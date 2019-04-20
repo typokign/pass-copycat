@@ -14,13 +14,9 @@ pass copycat will copy the first line of a password store file, and print the re
 
 ## Install
 
-1. Clone the repository
+1. Clone the repository: `git clone https://github.com/dacruz21/pass-copycat.git`
 
-`git clone https://github.com/dacruz21/pass-copycat.git`
-
-1. Run the install script to install the extension to `/usr/lib/password-store/extensions`
-
-`make install`
+1. Run the install script to install the extension to `/usr/lib/password-store/extensions`: `make install`
 
 ## Contributions
 

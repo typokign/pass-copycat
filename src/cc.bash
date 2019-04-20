@@ -8,7 +8,7 @@ set -euo pipefail
 
 if [[ -f $passfile ]]; then
 	contents=$($GPG -d "${GPG_OPTS[@]}" "$passfile")
-  echo "$contents" | tail -n +2
+	echo "$contents" | tail -n +2
 	password=$(echo "$contents" | head -n 1)
 	clip "$password" "$path"
 elif [[ -z $path ]]; then
